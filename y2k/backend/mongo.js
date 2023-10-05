@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-
+// please add your mongodb username and password
 mongoose.connect("mongodb+srv://username:password@cluster0.jczvf6q.mongodb.net/?retryWrites=true&w=majority",{
     useNewUrlParser: true,
     useUnifiedTopology: true,
